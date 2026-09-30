@@ -9,7 +9,7 @@ from datetime import datetime
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load Trained Model
-model = load_model(r"C:\Users\harsh\Downloads\Stock_Market_Prediction_ML\Stock Predictions Model.keras")
+model = load_model("Stock Predictions Model.keras")
 
 # Streamlit App Setup
 st.set_page_config(page_title='Stock Market Predictor', layout='wide')
